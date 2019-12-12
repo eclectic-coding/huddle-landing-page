@@ -9,6 +9,8 @@ $font-size-dec : 4px;
 @each $heading in $headings{
   #{$heading} {
     font-size : ($font-size-upper / $font-size-base) + em;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
   }
   $font-size-upper : $font-size-upper - $font-size-dec;
 }
