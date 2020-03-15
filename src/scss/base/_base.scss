@@ -21,4 +21,29 @@ a {
   color: $brand-color;
   text-decoration: none;
 
+  &:hover {
+    font-weight: bold;
+    text-decoration: underline;
+  }
 }
+
+header {
+  text-align: left;
+  width: 100%;
+  margin-top: 2rem;
+
+  .logo {
+    width: 43%;
+  }
+}
+
+main {
+  //margin: 3.8em 1em 4.5rem 1em;
+
+  img {
+    width: 100%;
+    height: auto;
+    //margin-bottom: 3.8rem;
+  }
+}
+
